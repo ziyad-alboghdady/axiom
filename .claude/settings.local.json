@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f package-lock.json)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npx expo *)",
+      "Bash(curl -s http://localhost:8081)",
+      "Bash(kill %1)",
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh pr create --title 'Fix project setup to make Expo Router app runnable' --body ' *)",
+      "Bash(grep -E \"\\\\.tsx$\")",
+      "Bash(node test_gemini.js)"
+    ]
+  }
+}
